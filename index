@@ -1,7 +1,9 @@
-<!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>Directory listing</h1>
+<hr/>
+<pre><a href="./leia\addons.xml">leia</a>
+<a href="./matrix\addons.xml">matrix</a>
+</pre>
 </body>
 </html>
