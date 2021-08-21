@@ -1834,6 +1834,11 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
       <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia</datadir>
       <hashes>false</hashes>
     </dir>
+    
+    <dir minversion="18.9.1">
+            <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix</datadir>
 
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -1848,7 +1853,6 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
   </extension>  
   
 </addon>
-
 
 <addon id="repository.plexus-streams" name="Plexus-Streams Repository" version="1.0.0" provider-name="D4FC">
 	<extension point="xbmc.addon.repository" name="Plexus-Streams Repository">
