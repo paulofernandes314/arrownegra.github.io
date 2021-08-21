@@ -1832,7 +1832,7 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
       <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia</datadir>
-      <hashes>false</hashes>
+      
     </dir>
     
     <dir minversion="18.9.1">
