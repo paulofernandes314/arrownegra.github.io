@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.EspadaNegra" name="[COLOR grey]Espada [COLOR blue] Negra [/COLOR]" version="1.1.5+matrix" provider-name="FlechaNegra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">TV, Movies, Series, Animation Online </summary>
+	<summary lang="pt">TV,Filmes,Series,Animação Online </summary>
+	<description lang="en">[COLOR orange]  Espada Negra [/COLOR] 
+	        [COLOR silver] The Add-on offers TV, Movies, Series, Animation Online , links that are fully functional and constantly
+updated NOTE: The creator of this Add-on does not host any content, we just reorganized, indexed it again, all content can be found on the internet with a simple search.[/COLOR]</description>
+	<description lang="pt">TV,Filmes,Series,Animação Online
+[COLOR orange]Espada Negra[/COLOR] 
+[COLOR silver]O Add-on oferece TV,Filmes,Series,Animação Online, links totalmente funcionais e constantemente
+atualizados OBS: O criador desse Add-on não hospeda nenhum conteúdo apenas reorganizamos, indexamos novamente, todo conteúdo pode ser encontrado na internet com busca simples.[/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team  blackarrow-kpt Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">[COLOR yellow] Espada Negra[/COLOR]
+[COLOR crimson]O  autor não é de forma alguma afiliado à Kodi, à Team blackarrow-kpt  Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR yellow] Espada Negra [/COLOR]</disclaimer>
+    <language>en de</language>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.+matrix
+- Addon Espada Negra
+
+	</news>
+</extension>
+</addon>
