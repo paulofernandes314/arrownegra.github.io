@@ -9,7 +9,7 @@
       <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main</datadir>
-  </dir>
+  
 
   </extension>
   <extension point="xbmc.addon.metadata">
