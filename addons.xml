@@ -1139,7 +1139,7 @@ v1.14.1 (2021-02-25)
     <disclaimer></disclaimer>
     <platform>all</platform>
     <assets>
-      <icon>icon.png></icon>
+      <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
