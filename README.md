@@ -12,7 +12,7 @@ Instruções para a adição deste repo:
     <li>O endereço para a fonte é <code>https://arrownegra.github.io</code> (Dar o nome de "ArrowNegra Repo").</li>
     <li>Ir para "Addons"</li>
     <li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "ArrowNegra Repo", e instalar <a href="repository.arrownegra-1.9.0.zip">matrix.zip</a>.</li>
-    <li>Ou <a href="repository.arrownegra-2.8.zip">leia.zip</a></li>
+    <li>Ou <a href="repository.arrownegra-2.8.zip">leia.zip</a>.</li>
     <li>Voltar para Addons,mas desta vez, selecionar "Instalar do repositório"</li>
     <li>Em Addons, instalar de um ficheiro zip. Quando perguntar pela localização, selecionar "ArrowNegra Repo", e instalar repository.arrownegra.zip</a>.</li>
     <li>Voltar para Addons,mas desta vez, selecionar "Instalar do repositório"</li>
