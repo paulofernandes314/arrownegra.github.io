@@ -1,19 +1,1139 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="repository.arrownegra" name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.9.0" provider-name="Flecha Negra">
+<addon id="plugin.program.blackarrowmatrix.wizard" name="[COLOR gold]BlackArrow[/COLOR][COLORcyan]Matrix Wizard[/COLOR]" version="1.9.0" provider-name="L.M. @FlechaNegra">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+
+
+        <platform>all</platform>
+
+
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.blackarrow.esportes.Matrix" name="[COLOR yellow]blackarrow[/COLOR][COLOR lime]esportes[/COLOR]" version="1.0.2+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLORorange]blackarrow.esportes[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLORorange]blackarrow.esportes[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+-<addon provider-name="Flechanegra" version="1.0.2+matrix.1" name="[COLOR red]Blackarrow[/COLOR] [COLORblack]Torrent[/COLOR]" id="plugin.video.blackarrow.torrent.Matrix">
+
+
+-<requires>
+
+<import version="3.0.0" addon="xbmc.python"/>
+
+<import addon="script.module.requests"/>
+
+<import addon="script.module.simplejson"/>
+
+<import addon="script.module.kodi-six"/>
+
+</requires>
+
+
+-<extension library="default.py" point="xbmc.python.pluginsource">
+
+<provides>video</provides>
+
+</extension>
+
+
+-<extension point="xbmc.addon.metadata">
+
+<summary lang="en">[COLORorange]blackarrow.torrent.Matrix[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+
+<summary lang="pt">[COLORorange]blackarrow.torrent.Matrix[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+
+<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+
+<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+
+<disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+
+<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+
+<platform>all</platform>
+
+
+-<assets>
+
+<icon>icon.png</icon>
+
+<fanart>fanart.jpg</fanart>
+
+<screenshot>resources/screenshots/1.png</screenshot>
+
+<screenshot>resources/screenshots/2.png</screenshot>
+
+<screenshot>resources/screenshots/3.png</screenshot>
+
+</assets>
+
+<news> v1.0.1.matrix.1 - Inauguração Flechanegra em Python 3 </news>
+
+</extension>
+
+</addon>
+
+<addon id="plugin.video.blackarrow18.matrix" name="[COLOR red]black[/COLOR] [COLOR yellow]arrow18[/COLOR]" version="1.0.0+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.png</screenshot>
+       <screenshot>resources/screenshots/2.png</screenshot>
+       <screenshot>resources/screenshots/3.png</screenshot>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração blackarrow18 em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.blackarrow1click.Matrix" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Cick[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLORorange]Infinity[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLORorange]Infinity[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	</assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.blackarrowplaylist" name="[COLOR red]Blackarrow[/COLOR][COLOR black]Playlist[/COLOR] [COLORcyan]Matrix[/COLOR]" version="1.0.3+matrix" provider-name="Flechanegra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">blackarrowplaylist</summary>
+    <summary lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <language>en de</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.EspadaNegra" name="[COLOR grey]Espada [COLOR blue] Negra [/COLOR]" version="1.1.5+matrix" provider-name="FlechaNegra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">TV, Movies, Series, Animation Online </summary>
+	<summary lang="pt">TV,Filmes,Series,Animação Online </summary>
+	<description lang="en">[COLOR orange]  Espada Negra [/COLOR] 
+	        [COLOR silver] The Add-on offers TV, Movies, Series, Animation Online , links that are fully functional and constantly
+updated NOTE: The creator of this Add-on does not host any content, we just reorganized, indexed it again, all content can be found on the internet with a simple search.[/COLOR]</description>
+	<description lang="pt">TV,Filmes,Series,Animação Online
+[COLOR orange]Espada Negra[/COLOR] 
+[COLOR silver]O Add-on oferece TV,Filmes,Series,Animação Online, links totalmente funcionais e constantemente
+atualizados OBS: O criador desse Add-on não hospeda nenhum conteúdo apenas reorganizamos, indexamos novamente, todo conteúdo pode ser encontrado na internet com busca simples.[/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team  blackarrow-kpt Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">[COLOR yellow] Espada Negra[/COLOR]
+[COLOR crimson]O  autor não é de forma alguma afiliado à Kodi, à Team blackarrow-kpt  Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais; nao tem nenhuma afiliação com o provedor de conteúdo.[COLOR yellow] Espada Negra [/COLOR]</disclaimer>
+    <language>en de</language>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.+matrix
+- Addon Espada Negra
+
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.flashbrasil.Matrix" name="[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeis an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeé um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeis an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR yellow]Flash[/COLOR] [COLORgreen]Brasil[/COLOR] [COLORorangeé um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	   </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.flechanegra.Matrix" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange][B]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/B][/COLOR]</summary>
+	<summary lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange][B]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange][B]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/B][/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange][B]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.gdrive" version="0.8.66" name="gDrive" provider-name="ddurdle">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video programs</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Watch videos from your Google Drive account</summary>
+		<description>Plays videos from your Google Drive account. Not affiliated with Google.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login">
+	</extension>
+</addon>
+
+<addon id="plugin.video.IncoGnit.Matrix" name="[COLOR lime]IncoGnit[/COLOR]" version="1.0.0+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR lime]IncoGnit[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLOR lime]IncoGnit[/COLOR][COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR lime]IncoGnit[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR lime]IncoGnit[/COLOR][COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.infinity.Matrix" name="[COLORorange]Infinity[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLORorange]Infinity[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLORorange]Infinity[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	   </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.K-PT.Matrix" name="[COLOR lime]K[/COLOR] - [COLOR red]Pt[/COLOR]" version="1.0.3+matrix.1" provider-name="Flechanegra">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLORorange]Infinity[/COLOR][COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</summary>
+	<summary lang="pt">[COLORorange]Infinity[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]is an add-on from the K-PT Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+	   <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+	   </assets>
+	<news>
+v1.0.0.matrix.1
+- Inauguração Flechanegra em Python 3
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.netflix" name="Netflix" version="1.14.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.requests" version="2.22.0+matrix.1"/>
+    <import addon="script.module.myconnpy" version="8.0.18+matrix.1"/> <!--MySQL Connector/Python-->
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="cs_CZ">Netflix</summary>
+    <description lang="cs_CZ">Plugin pro sledování filmů, seriálů online z Netflixu</description>
+    <disclaimer lang="cs_CZ">Použití tohoto doplňku nemusí být ve vaší zemi pobytu legální - před instalací dbejte na vaše zákony.</disclaimer>
+    <summary lang="de_DE">Netflix</summary>
+    <description lang="de_DE">Addon für Netflix VOD-Dienste</description>
+    <disclaimer lang="de_DE">Möglicherweise ist die Verwendung dieses Addons in Ihrem Land illegal, Sie sollten dies unbedingt vor der Installation überprüfen.</disclaimer>
+    <summary lang="en_GB">Netflix</summary>
+    <description lang="en_GB">Netflix VOD Services Add-on</description>
+    <disclaimer lang="en_GB">The use of this add-on may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <summary lang="el_GR">Νέτφλιξ</summary>
+    <description lang="el_GR">Πρόσθετο υπηρεσιών κατά παραγγελία του Νέτφλιξ</description>
+    <disclaimer lang="el_GR">Η χρήση αυτού του προσθέτου μπορεί να μην είναι νόμιμη στην χώρα που κατοικείτε - παρακαλώ ελέγξτε τους τοπικούς νόμους πριν την εγκατάσταση.</disclaimer>
+    <summary lang="nl_NL">Netflix</summary>
+    <description lang="nl_NL">Bekijk Netflix films en tvprogramma's in Kodi.</description>
+    <disclaimer lang="nl_NL">Sommige delen van deze add-on zijn mogelijk onwettig in jouw land - raadpleeg de lokale wetgeving alvorens deze add-on te installeren.</disclaimer>
+    <summary lang="ja_JP">Netflix</summary>
+    <description lang="ja_JP">Netflix VOD サービスアドオン</description>
+    <disclaimer lang="ja_JP">一部の国では、このアドオンを使用するのが不法でありますので、設置する前に必ず関連法律を確認してください</disclaimer>
+    <summary lang="ko_KR">Netflix</summary>
+    <description lang="ko_KR">Netflix VOD 서비스애드온</description>
+    <disclaimer lang="ko_KR">일부 국가에서는 이 애드온을 사용하는 것이 불법일 수도 있으니, 설치하기전 관련 법을 확인하기 바랍니다.</disclaimer>
+    <description lang="it_IT">Netflix Add-on servizi VOD</description>
+    <disclaimer lang="it_IT">L'utilizzo di questo add-on potrebbe non essere legale nel vostro paese di residenza - si prega di verificare le leggi in vigore prima dell'installazione.</disclaimer>
+    <summary lang="es_ES">Netflix</summary>
+    <description lang="es_ES">Complemento para los Servicios VOD de Netflix</description>
+    <disclaimer lang="es_ES">El uso de este complemento puede no ser legal en su país de residencia - Por favor, consulte las leyes locales antes de instalarlo.</disclaimer>
+    <summary lang="hu_HU">Netflix</summary>
+    <description lang="hu_HU">Netflix VOD kiegészítő a Kodihoz</description>
+    <disclaimer lang="hu_HU">Előfordulhat, hogy a kiegészítő használata nem törvényes az Ön országában - telepítés előtt tájékozódjon a helyi törvényekről</disclaimer>
+    <summary lang="pt_BR">Netflix</summary>
+    <description lang="pt_BR">Add-on para os serviços VOD do Netflix</description>
+    <disclaimer lang="pt_BR">O uso deste addon pode não ser legal no seu país de residência - por favor, verifique as suas leis locais antes de instalar.</disclaimer>
+    <summary lang="tr_TR">Netflix</summary>
+    <description lang="tr_TR">Netflix VOD Hizmetleri Eklentisi</description>
+    <disclaimer lang="tr_TR">Bu eklentinin bazı bölümleri ikamet ettiğiniz ülkede yasal olmayabilir - lütfen yüklemeden önce yerel yasalarınıza bakın.</disclaimer>
+    <summary lang="ro_RO">Netflix</summary>
+    <description lang="ro_RO">Add-on pentru servicii video la cerere Netflix</description>
+    <disclaimer lang="ro_RO">Utilizarea acestui add-on ar putea fi ilegală în țara în care locuiți - vă rugăm să verificați legile locale înainte de instalare.</disclaimer>
+    <summary lang="sv_SE">Netflix</summary>
+    <description lang="sv_SE">Netflix VOD Service-tillägg</description>
+    <disclaimer lang="sv_SE">Användandet av detta tillägg kanske inte är lagligt i ditt hemland - kontrollera med dina lokala lagar innan du installerar.</disclaimer>
+    <summary lang="zh_CN">Netflix</summary>
+    <description lang="zh_CN">Netflix VOD服务附加组件</description>
+    <disclaimer lang="zh_CN">此附加组件在您的居住国可能不合法-请在安装前与您当地的法律核对。</disclaimer>
+    <summary lang="fr_FR">Netflix</summary>
+    <description lang="fr_FR">Extension Netflix SVoD</description>
+    <disclaimer lang="fr_FR">L'utilisation de cette extension n'est peut-être pas légale dans votre pays de résidence - renseignez-vous avant de l'installer</disclaimer>
+    <summary lang="pl_PL">Netflix</summary>
+    <description lang="pl_PL">Wtyczka dla usług VOD serwisu Netflix</description>
+    <disclaimer lang="pl_PL">Korzystanie z tego dodatku może być niezgodne z prawem w twoim kraju zamieszkania - przed zainstalowaniem zapoznaj się z lokalnymi przepisami.</disclaimer>
+    <summary lang="he_IL">Netflix</summary>
+    <description lang="he_IL">תוסף VOD לשירות של Netflix</description>
+    <disclaimer lang="he_IL">השימוש בתוסף זה עלול להיות לא חוקי במדינת מגוריך - אנא בדוק את החוק ברשות המקומית לפני ההתקנה</disclaimer>
+    <summary lang="zh_TW">Netflix</summary>
+    <description lang="zh_TW">Netflix VOD服務套件</description>
+    <disclaimer lang="zh_TW">在您居住的國家使用此套件可能並不合法 - 請在安裝前與您當地的法律核對</disclaimer>
+	<assets>
+      <icon>resources/media/icon.png</icon>
+      <fanart>resources/media/fanart.jpg</fanart>
+      <screenshot>resources/media/screenshot-01.jpg</screenshot>
+      <screenshot>resources/media/screenshot-02.jpg</screenshot>
+      <screenshot>resources/media/screenshot-03.jpg</screenshot>
+      <screenshot>resources/media/screenshot-04.jpg</screenshot>
+      <screenshot>resources/media/screenshot-05.jpg</screenshot>
+    </assets>
+    <language>en cs de es fr he hr hu it ja ko nl pl pt ro sv tr zh</language>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://www.netflix.com</website>
+    <email></email>
+    <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
+    <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
+    <news>
+v1.14.1 (2021-02-25)
+- Fixed error caused by installation from scratch
+- Update translations pt_br, zh,tw, ro, fr, zh_cn, jp, kr, gl_es, hu
+    </news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.x-codes" name="[COLOR maroon]X[/COLOR]-[COLOR lightgrey]CODES[/COLOR]" version="1.9.1+matrix.1" provider-name="FlechaNegra"> 
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.simplejson"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.10+matrix.1" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+[fix] my subscriptions section using YouTube RSS |contrib: PureHemp|
+[fix] items per page settings on Kodi 19
+[chg] recommendations only available for users with custom history playlist id configured
+[chg] no longer show watch later unless custom watch later playlist is configured
+[rem] remove usage of discontinued api and dual login (no longer required)
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_IL">תוסף עבור YouTube</summary>
+        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <summary lang="cs_CZ">Plugin pro YouTube</summary>
+        <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+        <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+        <summary lang="tr_TR">YouTube için eklenti</summary>
+        <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir</description>
+        <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://ytaddon.panicked.xyz/forum</forum>
+        <website>https://www.youtube.com</website>
+        <source>https://github.com/anxdpanic/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="pvr.blackarrow" version="0.1.9" name="Blackarrow Client"
+  provider-name="Flechanegra">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.0" version="1.1.6"/>
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
+  <extension
+    point="kodi.pvrclient"
+    library_windows="pvr.stalker.dll"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</summary>
+    <summary lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</summary>
+    <summary lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</summary>
+    <summary lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</summary>
+    <summary lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</summary>
+    <summary lang="el_GR">ΠελάτηςPVR για σύνδεση του Kodi με τοBlackarrow Middleware</summary>
+    <summary lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</summary>
+    <summary lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</summary>
+    <summary lang="fi_FI">Kodin Blackarrow Middleware -asiakasohjelma</summary>
+    <summary lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</summary>
+    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</summary>
+    <summary lang="gl_ES">Cliente PVR para conectar Kodi a un Blackarrow Middleware</summary>
+    <summary lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</summary>
+    <summary lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</summary>
+    <summary lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</summary>
+    <summary lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </summary>
+    <summary lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</summary>
+    <summary lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</summary>
+    <summary lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</summary>
+    <summary lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</summary>
+    <summary lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</summary>
+    <summary lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</summary>
+    <summary lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</summary>
+    <summary lang="nb_NO">PVR-klient for å koble Kodi til Blackarrow Mellomvare</summary>
+    <summary lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</summary>
+    <summary lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</summary>
+    <summary lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</summary>
+    <summary lang="pt_PT">Cliente PVR para ligar o Kodi ao Blackarrow Middleware</summary>
+    <summary lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</summary>
+    <summary lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</summary>
+    <summary lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</summary>
+    <summary lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</summary>
+    <summary lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</summary>
+    <summary lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</summary>
+    <summary lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</summary>
+    <summary lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</summary>
+    <summary lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</summary>
+    <summary lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</summary>
+    <summary lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</summary>
+    <summary lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</summary>
+    <description lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</description>
+    <description lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</description>
+    <description lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</description>
+    <description lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</description>
+    <description lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</description>
+    <description lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</description>
+    <description lang="el_GR">Πελάτης PVR για σύνδεση του Kodi με το Blackarrow Middleware</description>
+    <description lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</description>
+    <description lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</description>
+    <description lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</description>
+    <description lang="fi_FI">PVR-asiakasohjelma, joka kytkeytyy Blackarrow Middlewareen</description>
+    <description lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</description>
+    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</description>
+    <description lang="gl_ES">Cliente PVR que conecta Kodi a un Blackarrow Middleware</description>
+    <description lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</description>
+    <description lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</description>
+    <description lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</description>
+    <description lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </description>
+    <description lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</description>
+    <description lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</description>
+    <description lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</description>
+    <description lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</description>
+    <description lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</description>
+    <description lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</description>
+    <description lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</description>
+    <description lang="nb_NO">PVR Klient for å koble Kodi til Blackarrow-mellomvare</description>
+    <description lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</description>
+    <description lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</description>
+    <description lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</description>
+    <description lang="pt_PT">Cliente PVR para ligar o Kodi ao Middleware Blackarrow</description>
+    <description lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</description>
+    <description lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</description>
+    <description lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</description>
+    <description lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</description>
+    <description lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</description>
+    <description lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</description>
+    <description lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</description>
+    <description lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</description>
+    <description lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</description>
+    <description lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</description>
+    <description lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</description>
+    <description lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</description>
+    <disclaimer lang="af_ZA">Hierdie is onstabiele sagteware! Die outeurs is op geen manier verantwoordelik vir gefaalde opnames, inkorrekte tydhouers, gemorsde ure, of enige ander ongewensde effekte.</disclaimer>
+    <disclaimer lang="be_BY">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно записване, некоректни броячи, пропиляно време и други нежелани ефекти.</disclaimer>
+    <disclaimer lang="ca_ES">Això és programari inestable! Els autors no són de cap manera responsables dels enregistraments que han fallat, temporitzadors incorrectes, hores perdudes, o qualssevol altres efectes no desitjats..</disclaimer>
+    <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná nahrávání, chybné časovače, ztracený čas nebo jakékoliv jiné nežádoucí výsledky…</disclaimer>
+    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
+    <disclaimer lang="da_DK">Dette er ustabil software! Ophavsmændene er på ingen måde ansvarlige for mislykkede optagelser, ukorrekte timere, spildte timer, eller andre uønskede konsekvenser..</disclaimer>
+    <disclaimer lang="de_DE">Dies ist instabile Software! Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewünschte Effekte.</disclaimer>
+    <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα..</disclaimer>
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="es_AR">¡Este software es inestable! Los autores no se responsabilizan por grabaciones fallidas, temporizadores incorrectos, horas perdidas, o cualquier otro efecto no deseado..</disclaimer>
+    <disclaimer lang="es_ES">¡Este es un software inestable! Los autores no son de ninguna manera responsables de las grabaciones fallidas o incorrectas, las temporizadores perdidas, ni otros efectos no deseables..</disclaimer>
+    <disclaimer lang="es_MX">¡Esto es software inestable! Los autores no son de ninguna manera responsables por grabaciones fallidas, temporizadores incorrectos, horas perdidas o cualquier otro efecto no deseado...</disclaimer>
+    <disclaimer lang="et_EE">See on ebastabiilne tarkvara! Autorid ei ole kuidagi moodi vastutavad nurjunud salvestiste, ebaõige aegrelee, raisatud tundide ega muude soovimatute asjade eest.</disclaimer>
+    <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egilea ez da arduratzen grabazio-erroreetaz, kronometro-erroreetaz, ordu galduetaz edo beste edozein ondorio ezerosoetaz.</disclaimer>
+    <disclaimer lang="fi_FI">Tämä on epävakaa ohjelma! Sen tekijät eivät ole millään muotoa vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, haaskatusta ajasta, verenpaineen noususta tai mistään muusta epäsuotuisasta vaikutuksesta.</disclaimer>
+    <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
+    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
+    <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
+    <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
+    <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna vremena snimanja, izgubljene sate, ili bilo koje druge nepoželjne učinke.</disclaimer>
+    <disclaimer lang="hu_HU">Ez nem stabil szoftver! A készítők nem vállalnak felelősséget, a hibás felvételért, rossz időzítésért, elvesztegetett időért...</disclaimer>
+    <disclaimer lang="hy_AM">Սա անկայուն ծրագրային ապահովում է: Հեղինակները պատասխանատու չեն վատ ձայնագրումների, սխալ ժամանակացույցերի, կորած ժամանակի կամ այլ ոչ ցանկալի երևույթների համար:</disclaimer>
+    <disclaimer lang="id_ID">Ini merupakan software yang tidak stabil! Penulis tidak bertanggung jawab untuk rekaman gagal, timer salah, waktu terbuang, atau efek tak diinginkan lainnya...</disclaimer>
+    <disclaimer lang="is_IS">Þetta er óstöðugur hugbúnaður! Höfundarnir eru á engan hátt ábyrgir fyrir misheppnuðum upptökum, röngum upptökutímum, klukkustundum sem að fóru í súginn eða nokkrum öðrum óæskilegum áhrifum.</disclaimer>
+    <disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabile per le fallite registrazioni, timer non corretti, ore perse o qualsiasi altro effetto non desiderato...</disclaimer>
+    <disclaimer lang="ja_JP">これは不安定なソフトウェアです！本プログラムの作者は、録画の失敗、正確に作動しなかったタイマー、無駄にした時間、その他あらゆる好ましくない結果について責任を負わないものとします。</disclaimer>
+    <disclaimer lang="ko_KR">이 소프트웨어는 불안정합니다! 제작자는 녹화 실패, 부정확한 타이머, 시간 낭비 및 기타 예상하지 못한 결과에 대해 책임지지 않습니다..</disclaimer>
+    <disclaimer lang="lt_LT">Tai yra nestabili programinė įranga! Autorius jokiu būdu neatsakingas už nepavykusius įrašus, neteisingus laikmačius, iššvaistytas valandas, ar nutikus kitiems nepageidaujamiems poveikiams ...[COLOR=red](Kodi.lt rekomenduoja/siūlo testuojant šį priedą persijungti į Anglų [orinali] kalbą)[/COLOR]</disclaimer>
+    <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par nesanākušiem ierakstiem, nepareiziem taimeriem, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem..</disclaimer>
+    <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите на ниту еден начин не одговараат за неуспешни снимки, неточни тајмери, потрошени часови, или било кои други несакани ефекти.</disclaimer>
+    <disclaimer lang="mn_MN">Тус програм нь гүйцэд хийгдэж дуусаагүй! Зохиогч нь алдаатай бичлэг, цагийн буруу хөтлөлт, алдагдсан цаг хугацаа эсвэл бусад ямар нэгэн хүсээгүй үр дүнд хариуцлага хүлээхгүй.</disclaimer>
+    <disclaimer lang="ms_MY">Ini merupakan perisian tidak stabil! Pengarang tidak bertanggungjawab atas kegagalan rakaman, pemasa tidak betul, masa yang dibazirkan, atau apa jua kesan yang tidak dikehendaki..</disclaimer>
+    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m'humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
+    <disclaimer lang="nb_NO">Dette er ustabil programvare! Skaperen har ikke på noen måte ansvar for feilede opptak, uriktige tidsur, bortkastede timer, eller andre uønskede effekter..</disclaimer>
+    <disclaimer lang="nl_NL">Dit is instabiele software! De makers zijn op geen enkele wijze verantwoordelijk voor foutieve opnames, incorrecte timers, verloren uren, of andere ongewenste bijverschijnselen.</disclaimer>
+    <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
+    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas gravações, agendamentos incorretos, horas dispendidas, ou quaisquer outros efeitos indesejáveis</disclaimer>
+    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
+    <disclaimer lang="ro_RO">Acesta nu este o aplicație definitivă! Autorii nu sunt în nici un fel responsabili pentru înregistrări eșuate, cronometre incorecte, ore pierdute, sau orice alte efecte nedorite...</disclaimer>
+    <disclaimer lang="ru_RU">Это тестовая программа! Авторы не несут ответственности за неудачные записи, неверные таймеры, потраченное время и прочие нежелательные эффекты..</disclaimer>
+    <disclaimer lang="si_LK">මෙය අස්ථිර මෘදුකාංගයකි! මෙහි සිදුවන පටිගත කිරීම් අසාර්ථක වීම්, සාවද්‍ය මුහුර්තක, නාස්ති වූ කාලයන්, හෝ වෙනත් යමිකිසි නුසුදුසු බලපෑම් සඳහා කතෘ වග කියනු නොලැබේ.</disclaimer>
+    <disclaimer lang="sk_SK">Tento softvér nie je stabilný! Autori nenesú žiadnu zodpovednosť za chybné nahrávky vysielania, nesprávne časovače alebo iné neželané udalosti spôsobené týmto softvérom..</disclaimer>
+    <disclaimer lang="sl_SI">To je nestabilna programska oprema! Avtorji niso odgovorni za neuspela snemanja, nepravilne časovnike, zapravljen čas in katerikoli drug neželen učinek...</disclaimer>
+    <disclaimer lang="sq_AL">Ky program nuk është ende stabël! Autorët e këtij programi nuk janë në as një menyr përgjegjës për rregistrime të gabuara, timer të pasaktë, kohë të humbur ose efekte të tilla të padëshirueshme.</disclaimer>
+    <disclaimer lang="sr_RS">Овај софтвер је нестабилан! Аутори ни на који начин нису одговорни за неуспела снимања, неисправне тајмере, изгубљене сате, или било које друге нежељене ефекте.</disclaimer>
+    <disclaimer lang="sr_RS@latin">Ovaj softver je nestabilan! Autori ni na koji način nisu odgovorni za neuspela snimanja, neispravne tajmere, izgubljene sate, ili bilo koje druge neželjene efekte.</disclaimer>
+    <disclaimer lang="sv_SE">Detta är instabil mjukvara! Upphovsmännen är inte ansvariga för misslyckade inspelningar, inkorrekta timers, bortslösade timmar, eller några andra oönskade effekter..</disclaimer>
+    <disclaimer lang="szl">To je niystabilny softwer! Autōry niy sōm ôdpedzialne za niypodarzōne graniy, niynŏleżne godziny EPG, stracōne godziny i inksze niychciane efekty.</disclaimer>
+    <disclaimer lang="te_IN">ఇది అస్థిర సాఫ్ట్వేర్! విఫలమైన రికార్డింగ్లు, తప్పు టైమర్లు, వృధా గంటల, లేదా ఏ ఇతర అవాంఛనీయ ప్రభావాలకు ఏ విధంగా రచయితలు భాద్యుతులు కారు.</disclaimer>
+    <disclaimer lang="tg_TJ">Ин нармафзори ноустувор аст! Муаллифон барои вайрониҳои сабт, вақтсанҷҳои нодуруст, соатҳои бефоида ва дигар таъсирҳои номатлуб ҷавобгар намебошанд.</disclaimer>
+    <disclaimer lang="th_TH">นี่คือโปรแกรมที่ยังไม่เสถียร! ผู้เขียนไม่อยู่ในทางที่จะรับผิดชอบในการบันทึกที่ล้มเหลว, การตั้งเวลาที่ไม่ถูกต้อง, การเสียเวลา, หรือผลกระทบที่ไม่พึงประสงค์อื่น ๆ..</disclaimer>
+    <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yapımcılar hatalı kayıtlardan, bozuk sürelerden, harcanan vakitten veya herhangi bir olumsuz etkiden dolayı sorumlu tutulamaz.</disclaimer>
+    <disclaimer lang="uk_UA">Це нестабільна програма! Автори не несуть відповідальності за попсуті записи, неправильні таймери, втрачений час та інші небажані ефекти.</disclaimer>
+    <disclaimer lang="vi_VN">Đây là phần mềm không ổn định! Các tác giả không chịu trách nhiệm đối với bản ghi chương trình thất bại, hẹn giờ không chính xác, giờ lãng phí, hoặc bất kỳ tác dụng không mong muốn khác..</disclaimer>
+    <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
+    <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
+    <platform>windows-x86_64</platform>
+
+    <assets>
+    	<fanart>fanart.jpg</fanart>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.blackarrowand32"
+  version="0.1.9"
+  name="Blackarrow Client"
+  provider-name="Flechanegra">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.0" version="1.1.6"/>
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
+  <extension
+    point="kodi.pvrclient"
+    library_android="libpvr.stalker.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</summary>
+    <summary lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</summary>
+    <summary lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</summary>
+    <summary lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</summary>
+    <summary lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</summary>
+    <summary lang="el_GR">ΠελάτηςPVR για σύνδεση του Kodi με τοBlackarrow Middleware</summary>
+    <summary lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</summary>
+    <summary lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</summary>
+    <summary lang="fi_FI">Kodin Blackarrow Middleware -asiakasohjelma</summary>
+    <summary lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</summary>
+    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</summary>
+    <summary lang="gl_ES">Cliente PVR para conectar Kodi a un Blackarrow Middleware</summary>
+    <summary lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</summary>
+    <summary lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</summary>
+    <summary lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</summary>
+    <summary lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </summary>
+    <summary lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</summary>
+    <summary lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</summary>
+    <summary lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</summary>
+    <summary lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</summary>
+    <summary lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</summary>
+    <summary lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</summary>
+    <summary lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</summary>
+    <summary lang="nb_NO">PVR-klient for å koble Kodi til Blackarrow Mellomvare</summary>
+    <summary lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</summary>
+    <summary lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</summary>
+    <summary lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</summary>
+    <summary lang="pt_PT">Cliente PVR para ligar o Kodi ao Blackarrow Middleware</summary>
+    <summary lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</summary>
+    <summary lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</summary>
+    <summary lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</summary>
+    <summary lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</summary>
+    <summary lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</summary>
+    <summary lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</summary>
+    <summary lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</summary>
+    <summary lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</summary>
+    <summary lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</summary>
+    <summary lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</summary>
+    <summary lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</summary>
+    <summary lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</summary>
+    <description lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</description>
+    <description lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</description>
+    <description lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</description>
+    <description lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</description>
+    <description lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</description>
+    <description lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</description>
+    <description lang="el_GR">Πελάτης PVR για σύνδεση του Kodi με το Blackarrow Middleware</description>
+    <description lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</description>
+    <description lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</description>
+    <description lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</description>
+    <description lang="fi_FI">PVR-asiakasohjelma, joka kytkeytyy Blackarrow Middlewareen</description>
+    <description lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</description>
+    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</description>
+    <description lang="gl_ES">Cliente PVR que conecta Kodi a un Blackarrow Middleware</description>
+    <description lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</description>
+    <description lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</description>
+    <description lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</description>
+    <description lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </description>
+    <description lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</description>
+    <description lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</description>
+    <description lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</description>
+    <description lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</description>
+    <description lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</description>
+    <description lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</description>
+    <description lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</description>
+    <description lang="nb_NO">PVR Klient for å koble Kodi til Blackarrow-mellomvare</description>
+    <description lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</description>
+    <description lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</description>
+    <description lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</description>
+    <description lang="pt_PT">Cliente PVR para ligar o Kodi ao Middleware Blackarrow</description>
+    <description lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</description>
+    <description lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</description>
+    <description lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</description>
+    <description lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</description>
+    <description lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</description>
+    <description lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</description>
+    <description lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</description>
+    <description lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</description>
+    <description lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</description>
+    <description lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</description>
+    <description lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</description>
+    <description lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</description>
+    <disclaimer lang="af_ZA">Hierdie is onstabiele sagteware! Die outeurs is op geen manier verantwoordelik vir gefaalde opnames, inkorrekte tydhouers, gemorsde ure, of enige ander ongewensde effekte.</disclaimer>
+    <disclaimer lang="be_BY">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно записване, некоректни броячи, пропиляно време и други нежелани ефекти.</disclaimer>
+    <disclaimer lang="ca_ES">Això és programari inestable! Els autors no són de cap manera responsables dels enregistraments que han fallat, temporitzadors incorrectes, hores perdudes, o qualssevol altres efectes no desitjats..</disclaimer>
+    <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná nahrávání, chybné časovače, ztracený čas nebo jakékoliv jiné nežádoucí výsledky…</disclaimer>
+    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
+    <disclaimer lang="da_DK">Dette er ustabil software! Ophavsmændene er på ingen måde ansvarlige for mislykkede optagelser, ukorrekte timere, spildte timer, eller andre uønskede konsekvenser..</disclaimer>
+    <disclaimer lang="de_DE">Dies ist instabile Software! Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewünschte Effekte.</disclaimer>
+    <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα..</disclaimer>
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="es_AR">¡Este software es inestable! Los autores no se responsabilizan por grabaciones fallidas, temporizadores incorrectos, horas perdidas, o cualquier otro efecto no deseado..</disclaimer>
+    <disclaimer lang="es_ES">¡Este es un software inestable! Los autores no son de ninguna manera responsables de las grabaciones fallidas o incorrectas, las temporizadores perdidas, ni otros efectos no deseables..</disclaimer>
+    <disclaimer lang="es_MX">¡Esto es software inestable! Los autores no son de ninguna manera responsables por grabaciones fallidas, temporizadores incorrectos, horas perdidas o cualquier otro efecto no deseado...</disclaimer>
+    <disclaimer lang="et_EE">See on ebastabiilne tarkvara! Autorid ei ole kuidagi moodi vastutavad nurjunud salvestiste, ebaõige aegrelee, raisatud tundide ega muude soovimatute asjade eest.</disclaimer>
+    <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egilea ez da arduratzen grabazio-erroreetaz, kronometro-erroreetaz, ordu galduetaz edo beste edozein ondorio ezerosoetaz.</disclaimer>
+    <disclaimer lang="fi_FI">Tämä on epävakaa ohjelma! Sen tekijät eivät ole millään muotoa vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, haaskatusta ajasta, verenpaineen noususta tai mistään muusta epäsuotuisasta vaikutuksesta.</disclaimer>
+    <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
+    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
+    <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
+    <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
+    <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna vremena snimanja, izgubljene sate, ili bilo koje druge nepoželjne učinke.</disclaimer>
+    <disclaimer lang="hu_HU">Ez nem stabil szoftver! A készítők nem vállalnak felelősséget, a hibás felvételért, rossz időzítésért, elvesztegetett időért...</disclaimer>
+    <disclaimer lang="hy_AM">Սա անկայուն ծրագրային ապահովում է: Հեղինակները պատասխանատու չեն վատ ձայնագրումների, սխալ ժամանակացույցերի, կորած ժամանակի կամ այլ ոչ ցանկալի երևույթների համար:</disclaimer>
+    <disclaimer lang="id_ID">Ini merupakan software yang tidak stabil! Penulis tidak bertanggung jawab untuk rekaman gagal, timer salah, waktu terbuang, atau efek tak diinginkan lainnya...</disclaimer>
+    <disclaimer lang="is_IS">Þetta er óstöðugur hugbúnaður! Höfundarnir eru á engan hátt ábyrgir fyrir misheppnuðum upptökum, röngum upptökutímum, klukkustundum sem að fóru í súginn eða nokkrum öðrum óæskilegum áhrifum.</disclaimer>
+    <disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabile per le fallite registrazioni, timer non corretti, ore perse o qualsiasi altro effetto non desiderato...</disclaimer>
+    <disclaimer lang="ja_JP">これは不安定なソフトウェアです！本プログラムの作者は、録画の失敗、正確に作動しなかったタイマー、無駄にした時間、その他あらゆる好ましくない結果について責任を負わないものとします。</disclaimer>
+    <disclaimer lang="ko_KR">이 소프트웨어는 불안정합니다! 제작자는 녹화 실패, 부정확한 타이머, 시간 낭비 및 기타 예상하지 못한 결과에 대해 책임지지 않습니다..</disclaimer>
+    <disclaimer lang="lt_LT">Tai yra nestabili programinė įranga! Autorius jokiu būdu neatsakingas už nepavykusius įrašus, neteisingus laikmačius, iššvaistytas valandas, ar nutikus kitiems nepageidaujamiems poveikiams ...[COLOR=red](Kodi.lt rekomenduoja/siūlo testuojant šį priedą persijungti į Anglų [orinali] kalbą)[/COLOR]</disclaimer>
+    <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par nesanākušiem ierakstiem, nepareiziem taimeriem, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem..</disclaimer>
+    <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите на ниту еден начин не одговараат за неуспешни снимки, неточни тајмери, потрошени часови, или било кои други несакани ефекти.</disclaimer>
+    <disclaimer lang="mn_MN">Тус програм нь гүйцэд хийгдэж дуусаагүй! Зохиогч нь алдаатай бичлэг, цагийн буруу хөтлөлт, алдагдсан цаг хугацаа эсвэл бусад ямар нэгэн хүсээгүй үр дүнд хариуцлага хүлээхгүй.</disclaimer>
+    <disclaimer lang="ms_MY">Ini merupakan perisian tidak stabil! Pengarang tidak bertanggungjawab atas kegagalan rakaman, pemasa tidak betul, masa yang dibazirkan, atau apa jua kesan yang tidak dikehendaki..</disclaimer>
+    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m'humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
+    <disclaimer lang="nb_NO">Dette er ustabil programvare! Skaperen har ikke på noen måte ansvar for feilede opptak, uriktige tidsur, bortkastede timer, eller andre uønskede effekter..</disclaimer>
+    <disclaimer lang="nl_NL">Dit is instabiele software! De makers zijn op geen enkele wijze verantwoordelijk voor foutieve opnames, incorrecte timers, verloren uren, of andere ongewenste bijverschijnselen.</disclaimer>
+    <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
+    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas gravações, agendamentos incorretos, horas dispendidas, ou quaisquer outros efeitos indesejáveis</disclaimer>
+    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
+    <disclaimer lang="ro_RO">Acesta nu este o aplicație definitivă! Autorii nu sunt în nici un fel responsabili pentru înregistrări eșuate, cronometre incorecte, ore pierdute, sau orice alte efecte nedorite...</disclaimer>
+    <disclaimer lang="ru_RU">Это тестовая программа! Авторы не несут ответственности за неудачные записи, неверные таймеры, потраченное время и прочие нежелательные эффекты..</disclaimer>
+    <disclaimer lang="si_LK">මෙය අස්ථිර මෘදුකාංගයකි! මෙහි සිදුවන පටිගත කිරීම් අසාර්ථක වීම්, සාවද්‍ය මුහුර්තක, නාස්ති වූ කාලයන්, හෝ වෙනත් යමිකිසි නුසුදුසු බලපෑම් සඳහා කතෘ වග කියනු නොලැබේ.</disclaimer>
+    <disclaimer lang="sk_SK">Tento softvér nie je stabilný! Autori nenesú žiadnu zodpovednosť za chybné nahrávky vysielania, nesprávne časovače alebo iné neželané udalosti spôsobené týmto softvérom..</disclaimer>
+    <disclaimer lang="sl_SI">To je nestabilna programska oprema! Avtorji niso odgovorni za neuspela snemanja, nepravilne časovnike, zapravljen čas in katerikoli drug neželen učinek...</disclaimer>
+    <disclaimer lang="sq_AL">Ky program nuk është ende stabël! Autorët e këtij programi nuk janë në as një menyr përgjegjës për rregistrime të gabuara, timer të pasaktë, kohë të humbur ose efekte të tilla të padëshirueshme.</disclaimer>
+    <disclaimer lang="sr_RS">Овај софтвер је нестабилан! Аутори ни на који начин нису одговорни за неуспела снимања, неисправне тајмере, изгубљене сате, или било које друге нежељене ефекте.</disclaimer>
+    <disclaimer lang="sr_RS@latin">Ovaj softver je nestabilan! Autori ni na koji način nisu odgovorni za neuspela snimanja, neispravne tajmere, izgubljene sate, ili bilo koje druge neželjene efekte.</disclaimer>
+    <disclaimer lang="sv_SE">Detta är instabil mjukvara! Upphovsmännen är inte ansvariga för misslyckade inspelningar, inkorrekta timers, bortslösade timmar, eller några andra oönskade effekter..</disclaimer>
+    <disclaimer lang="szl">To je niystabilny softwer! Autōry niy sōm ôdpedzialne za niypodarzōne graniy, niynŏleżne godziny EPG, stracōne godziny i inksze niychciane efekty.</disclaimer>
+    <disclaimer lang="te_IN">ఇది అస్థిర సాఫ్ట్వేర్! విఫలమైన రికార్డింగ్లు, తప్పు టైమర్లు, వృధా గంటల, లేదా ఏ ఇతర అవాంఛనీయ ప్రభావాలకు ఏ విధంగా రచయితలు భాద్యుతులు కారు.</disclaimer>
+    <disclaimer lang="tg_TJ">Ин нармафзори ноустувор аст! Муаллифон барои вайрониҳои сабт, вақтсанҷҳои нодуруст, соатҳои бефоида ва дигар таъсирҳои номатлуб ҷавобгар намебошанд.</disclaimer>
+    <disclaimer lang="th_TH">นี่คือโปรแกรมที่ยังไม่เสถียร! ผู้เขียนไม่อยู่ในทางที่จะรับผิดชอบในการบันทึกที่ล้มเหลว, การตั้งเวลาที่ไม่ถูกต้อง, การเสียเวลา, หรือผลกระทบที่ไม่พึงประสงค์อื่น ๆ..</disclaimer>
+    <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yapımcılar hatalı kayıtlardan, bozuk sürelerden, harcanan vakitten veya herhangi bir olumsuz etkiden dolayı sorumlu tutulamaz.</disclaimer>
+    <disclaimer lang="uk_UA">Це нестабільна програма! Автори не несуть відповідальності за попсуті записи, неправильні таймери, втрачений час та інші небажані ефекти.</disclaimer>
+    <disclaimer lang="vi_VN">Đây là phần mềm không ổn định! Các tác giả không chịu trách nhiệm đối với bản ghi chương trình thất bại, hẹn giờ không chính xác, giờ lãng phí, hoặc bất kỳ tác dụng không mong muốn khác..</disclaimer>
+    <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
+    <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
+    <platform>android-armv7</platform>
+
+
+    <assets>
+    	<fanart>fanart.jpg</fanart>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.blackarrowand64"
+  version="0.1.9"
+  name="Blackarrow Client"
+  provider-name="Flechanegra">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="1.2.0" version="1.3.0"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.0" version="1.1.6"/>
+<import addon="kodi.binary.global.tools" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
+  <extension
+    point="kodi.pvrclient"
+    library_android="libpvr.stalker.so"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</summary>
+    <summary lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</summary>
+    <summary lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</summary>
+    <summary lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</summary>
+    <summary lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</summary>
+    <summary lang="el_GR">ΠελάτηςPVR για σύνδεση του Kodi με τοBlackarrow Middleware</summary>
+    <summary lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</summary>
+    <summary lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</summary>
+    <summary lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</summary>
+    <summary lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</summary>
+    <summary lang="fi_FI">Kodin Blackarrow Middleware -asiakasohjelma</summary>
+    <summary lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</summary>
+    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</summary>
+    <summary lang="gl_ES">Cliente PVR para conectar Kodi a un Blackarrow Middleware</summary>
+    <summary lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</summary>
+    <summary lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</summary>
+    <summary lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</summary>
+    <summary lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </summary>
+    <summary lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</summary>
+    <summary lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</summary>
+    <summary lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</summary>
+    <summary lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</summary>
+    <summary lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</summary>
+    <summary lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</summary>
+    <summary lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</summary>
+    <summary lang="nb_NO">PVR-klient for å koble Kodi til Blackarrow Mellomvare</summary>
+    <summary lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</summary>
+    <summary lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</summary>
+    <summary lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</summary>
+    <summary lang="pt_PT">Cliente PVR para ligar o Kodi ao Blackarrow Middleware</summary>
+    <summary lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</summary>
+    <summary lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</summary>
+    <summary lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</summary>
+    <summary lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</summary>
+    <summary lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</summary>
+    <summary lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</summary>
+    <summary lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</summary>
+    <summary lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</summary>
+    <summary lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</summary>
+    <summary lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</summary>
+    <summary lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</summary>
+    <summary lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</summary>
+    <description lang="af_ZA">PVR Kliënt om Kodi aan Blackarrow Middleware te konnekteer</description>
+    <description lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Blackarrow Middleware“</description>
+    <description lang="ca_ES">Client PVR per connectar Kodi al Middleware Blackarrow</description>
+    <description lang="cs_CZ">Klient PVR pro připojení Kodi k Blackarrow Middleware</description>
+    <description lang="da_DK">PVR klient som forbinder Kodi til Blackarrow Middleware</description>
+    <description lang="de_DE">PVR Client um Kodi mit Blackarrow Middleware zu verbinden</description>
+    <description lang="el_GR">Πελάτης PVR για σύνδεση του Kodi με το Blackarrow Middleware</description>
+    <description lang="en_GB">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_NZ">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="en_US">PVR Client to connect Kodi to Blackarrow Middleware</description>
+    <description lang="es_ES">Cliente PVR para conectar Kodi al Middleware Blackarrow</description>
+    <description lang="es_MX">Cliente PVR para conectar Kodi al Blackarrow Middleware</description>
+    <description lang="et_EE">PVR'i klient ühendamaks Kodi Blackarrow Middleware'ga</description>
+    <description lang="fi_FI">PVR-asiakasohjelma, joka kytkeytyy Blackarrow Middlewareen</description>
+    <description lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Blackarrow</description>
+    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Blackarrow</description>
+    <description lang="gl_ES">Cliente PVR que conecta Kodi a un Blackarrow Middleware</description>
+    <description lang="he_IL">לקוח טלוויזיה חיה עבור Blackarrow Middleware</description>
+    <description lang="hr_HR">PVR klijent za povezivanje Kodija na Blackarrow Middleware</description>
+    <description lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Blackarrow köztes réteggel</description>
+    <description lang="id_ID">PVR Client untuk menghubungkan Kodi ke Blackarrow Middleware </description>
+    <description lang="is_IS">Upptökubiðlari til að tengja Kodi við Blackarrow Middleware</description>
+    <description lang="it_IT">Client PVR per connettere Kodi a Blackarrow Middleware</description>
+    <description lang="ja_JP">KodiをBlackarrow Middlewareに接続するためのPVRクライアント</description>
+    <description lang="ko_KR">Kodi를 Blackarrow 미들웨어로 연결하는 PVR 클라이언트</description>
+    <description lang="lt_LT">PVR klientas Kodi sujungimui su Blackarrow Middleware</description>
+    <description lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Blackarrow Middleware</description>
+    <description lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Blackarrow Middleware</description>
+    <description lang="nb_NO">PVR Klient for å koble Kodi til Blackarrow-mellomvare</description>
+    <description lang="nl_NL">PVR-cliënt verbindt Kodi met Blackarrow Middleware</description>
+    <description lang="pl_PL">Klient telewizji dla platformy Blackarrow Middleware</description>
+    <description lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Blackarrow</description>
+    <description lang="pt_PT">Cliente PVR para ligar o Kodi ao Middleware Blackarrow</description>
+    <description lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Blackarrow</description>
+    <description lang="ru_RU">Клиент PVR для подключения Blackarrow Middleware к Kodi</description>
+    <description lang="sk_SK">PVR klient na prepojenie Kodi so Blackarrow softverom</description>
+    <description lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Blackarrow Middleware</description>
+    <description lang="sr_RS">PVR Клијент за повезивање Kodi са Blackarrow Middleware</description>
+    <description lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Blackarrow Middleware</description>
+    <description lang="sv_SE">PVR-klient för anslutning av Kodi till Blackarrow Middleware</description>
+    <description lang="szl">Klijynt telewizyje dlŏ platformy Blackarrow Middleware</description>
+    <description lang="tr_TR">PVR İstemcisi Kodi'yi Blackarrow Middleware'e bağlar</description>
+    <description lang="vi_VN">Trình PVR để kết nối Kodi với Blackarrow Middleware</description>
+    <description lang="zh_CN">Kodi 连接 Blackarrow Middleware 的 PVR 客户端</description>
+    <description lang="zh_TW">連接至 Blackarrow Middleware 的Kodi PVR用戶端</description>
+    <disclaimer lang="af_ZA">Hierdie is onstabiele sagteware! Die outeurs is op geen manier verantwoordelik vir gefaalde opnames, inkorrekte tydhouers, gemorsde ure, of enige ander ongewensde effekte.</disclaimer>
+    <disclaimer lang="be_BY">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно записване, некоректни броячи, пропиляно време и други нежелани ефекти.</disclaimer>
+    <disclaimer lang="ca_ES">Això és programari inestable! Els autors no són de cap manera responsables dels enregistraments que han fallat, temporitzadors incorrectes, hores perdudes, o qualssevol altres efectes no desitjats..</disclaimer>
+    <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná nahrávání, chybné časovače, ztracený čas nebo jakékoliv jiné nežádoucí výsledky…</disclaimer>
+    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
+    <disclaimer lang="da_DK">Dette er ustabil software! Ophavsmændene er på ingen måde ansvarlige for mislykkede optagelser, ukorrekte timere, spildte timer, eller andre uønskede konsekvenser..</disclaimer>
+    <disclaimer lang="de_DE">Dies ist instabile Software! Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewünschte Effekte.</disclaimer>
+    <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα..</disclaimer>
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
+    <disclaimer lang="es_AR">¡Este software es inestable! Los autores no se responsabilizan por grabaciones fallidas, temporizadores incorrectos, horas perdidas, o cualquier otro efecto no deseado..</disclaimer>
+    <disclaimer lang="es_ES">¡Este es un software inestable! Los autores no son de ninguna manera responsables de las grabaciones fallidas o incorrectas, las temporizadores perdidas, ni otros efectos no deseables..</disclaimer>
+    <disclaimer lang="es_MX">¡Esto es software inestable! Los autores no son de ninguna manera responsables por grabaciones fallidas, temporizadores incorrectos, horas perdidas o cualquier otro efecto no deseado...</disclaimer>
+    <disclaimer lang="et_EE">See on ebastabiilne tarkvara! Autorid ei ole kuidagi moodi vastutavad nurjunud salvestiste, ebaõige aegrelee, raisatud tundide ega muude soovimatute asjade eest.</disclaimer>
+    <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egilea ez da arduratzen grabazio-erroreetaz, kronometro-erroreetaz, ordu galduetaz edo beste edozein ondorio ezerosoetaz.</disclaimer>
+    <disclaimer lang="fi_FI">Tämä on epävakaa ohjelma! Sen tekijät eivät ole millään muotoa vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, haaskatusta ajasta, verenpaineen noususta tai mistään muusta epäsuotuisasta vaikutuksesta.</disclaimer>
+    <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
+    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
+    <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
+    <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
+    <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna vremena snimanja, izgubljene sate, ili bilo koje druge nepoželjne učinke.</disclaimer>
+    <disclaimer lang="hu_HU">Ez nem stabil szoftver! A készítők nem vállalnak felelősséget, a hibás felvételért, rossz időzítésért, elvesztegetett időért...</disclaimer>
+    <disclaimer lang="hy_AM">Սա անկայուն ծրագրային ապահովում է: Հեղինակները պատասխանատու չեն վատ ձայնագրումների, սխալ ժամանակացույցերի, կորած ժամանակի կամ այլ ոչ ցանկալի երևույթների համար:</disclaimer>
+    <disclaimer lang="id_ID">Ini merupakan software yang tidak stabil! Penulis tidak bertanggung jawab untuk rekaman gagal, timer salah, waktu terbuang, atau efek tak diinginkan lainnya...</disclaimer>
+    <disclaimer lang="is_IS">Þetta er óstöðugur hugbúnaður! Höfundarnir eru á engan hátt ábyrgir fyrir misheppnuðum upptökum, röngum upptökutímum, klukkustundum sem að fóru í súginn eða nokkrum öðrum óæskilegum áhrifum.</disclaimer>
+    <disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabile per le fallite registrazioni, timer non corretti, ore perse o qualsiasi altro effetto non desiderato...</disclaimer>
+    <disclaimer lang="ja_JP">これは不安定なソフトウェアです！本プログラムの作者は、録画の失敗、正確に作動しなかったタイマー、無駄にした時間、その他あらゆる好ましくない結果について責任を負わないものとします。</disclaimer>
+    <disclaimer lang="ko_KR">이 소프트웨어는 불안정합니다! 제작자는 녹화 실패, 부정확한 타이머, 시간 낭비 및 기타 예상하지 못한 결과에 대해 책임지지 않습니다..</disclaimer>
+    <disclaimer lang="lt_LT">Tai yra nestabili programinė įranga! Autorius jokiu būdu neatsakingas už nepavykusius įrašus, neteisingus laikmačius, iššvaistytas valandas, ar nutikus kitiems nepageidaujamiems poveikiams ...[COLOR=red](Kodi.lt rekomenduoja/siūlo testuojant šį priedą persijungti į Anglų [orinali] kalbą)[/COLOR]</disclaimer>
+    <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par nesanākušiem ierakstiem, nepareiziem taimeriem, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem..</disclaimer>
+    <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите на ниту еден начин не одговараат за неуспешни снимки, неточни тајмери, потрошени часови, или било кои други несакани ефекти.</disclaimer>
+    <disclaimer lang="mn_MN">Тус програм нь гүйцэд хийгдэж дуусаагүй! Зохиогч нь алдаатай бичлэг, цагийн буруу хөтлөлт, алдагдсан цаг хугацаа эсвэл бусад ямар нэгэн хүсээгүй үр дүнд хариуцлага хүлээхгүй.</disclaimer>
+    <disclaimer lang="ms_MY">Ini merupakan perisian tidak stabil! Pengarang tidak bertanggungjawab atas kegagalan rakaman, pemasa tidak betul, masa yang dibazirkan, atau apa jua kesan yang tidak dikehendaki..</disclaimer>
+    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m'humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
+    <disclaimer lang="nb_NO">Dette er ustabil programvare! Skaperen har ikke på noen måte ansvar for feilede opptak, uriktige tidsur, bortkastede timer, eller andre uønskede effekter..</disclaimer>
+    <disclaimer lang="nl_NL">Dit is instabiele software! De makers zijn op geen enkele wijze verantwoordelijk voor foutieve opnames, incorrecte timers, verloren uren, of andere ongewenste bijverschijnselen.</disclaimer>
+    <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
+    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas gravações, agendamentos incorretos, horas dispendidas, ou quaisquer outros efeitos indesejáveis</disclaimer>
+    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
+    <disclaimer lang="ro_RO">Acesta nu este o aplicație definitivă! Autorii nu sunt în nici un fel responsabili pentru înregistrări eșuate, cronometre incorecte, ore pierdute, sau orice alte efecte nedorite...</disclaimer>
+    <disclaimer lang="ru_RU">Это тестовая программа! Авторы не несут ответственности за неудачные записи, неверные таймеры, потраченное время и прочие нежелательные эффекты..</disclaimer>
+    <disclaimer lang="si_LK">මෙය අස්ථිර මෘදුකාංගයකි! මෙහි සිදුවන පටිගත කිරීම් අසාර්ථක වීම්, සාවද්‍ය මුහුර්තක, නාස්ති වූ කාලයන්, හෝ වෙනත් යමිකිසි නුසුදුසු බලපෑම් සඳහා කතෘ වග කියනු නොලැබේ.</disclaimer>
+    <disclaimer lang="sk_SK">Tento softvér nie je stabilný! Autori nenesú žiadnu zodpovednosť za chybné nahrávky vysielania, nesprávne časovače alebo iné neželané udalosti spôsobené týmto softvérom..</disclaimer>
+    <disclaimer lang="sl_SI">To je nestabilna programska oprema! Avtorji niso odgovorni za neuspela snemanja, nepravilne časovnike, zapravljen čas in katerikoli drug neželen učinek...</disclaimer>
+    <disclaimer lang="sq_AL">Ky program nuk është ende stabël! Autorët e këtij programi nuk janë në as një menyr përgjegjës për rregistrime të gabuara, timer të pasaktë, kohë të humbur ose efekte të tilla të padëshirueshme.</disclaimer>
+    <disclaimer lang="sr_RS">Овај софтвер је нестабилан! Аутори ни на који начин нису одговорни за неуспела снимања, неисправне тајмере, изгубљене сате, или било које друге нежељене ефекте.</disclaimer>
+    <disclaimer lang="sr_RS@latin">Ovaj softver je nestabilan! Autori ni na koji način nisu odgovorni za neuspela snimanja, neispravne tajmere, izgubljene sate, ili bilo koje druge neželjene efekte.</disclaimer>
+    <disclaimer lang="sv_SE">Detta är instabil mjukvara! Upphovsmännen är inte ansvariga för misslyckade inspelningar, inkorrekta timers, bortslösade timmar, eller några andra oönskade effekter..</disclaimer>
+    <disclaimer lang="szl">To je niystabilny softwer! Autōry niy sōm ôdpedzialne za niypodarzōne graniy, niynŏleżne godziny EPG, stracōne godziny i inksze niychciane efekty.</disclaimer>
+    <disclaimer lang="te_IN">ఇది అస్థిర సాఫ్ట్వేర్! విఫలమైన రికార్డింగ్లు, తప్పు టైమర్లు, వృధా గంటల, లేదా ఏ ఇతర అవాంఛనీయ ప్రభావాలకు ఏ విధంగా రచయితలు భాద్యుతులు కారు.</disclaimer>
+    <disclaimer lang="tg_TJ">Ин нармафзори ноустувор аст! Муаллифон барои вайрониҳои сабт, вақтсанҷҳои нодуруст, соатҳои бефоида ва дигар таъсирҳои номатлуб ҷавобгар намебошанд.</disclaimer>
+    <disclaimer lang="th_TH">นี่คือโปรแกรมที่ยังไม่เสถียร! ผู้เขียนไม่อยู่ในทางที่จะรับผิดชอบในการบันทึกที่ล้มเหลว, การตั้งเวลาที่ไม่ถูกต้อง, การเสียเวลา, หรือผลกระทบที่ไม่พึงประสงค์อื่น ๆ..</disclaimer>
+    <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yapımcılar hatalı kayıtlardan, bozuk sürelerden, harcanan vakitten veya herhangi bir olumsuz etkiden dolayı sorumlu tutulamaz.</disclaimer>
+    <disclaimer lang="uk_UA">Це нестабільна програма! Автори не несуть відповідальності за попсуті записи, неправильні таймери, втрачений час та інші небажані ефекти.</disclaimer>
+    <disclaimer lang="vi_VN">Đây là phần mềm không ổn định! Các tác giả không chịu trách nhiệm đối với bản ghi chương trình thất bại, hẹn giờ không chính xác, giờ lãng phí, hoặc bất kỳ tác dụng không mong muốn khác..</disclaimer>
+    <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
+    <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
+    <platform>android-aarch64</platform>
+
+
+    <assets>
+    	<fanart>fanart.jpg</fanart>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.arrownegra" name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.9.0" provider-name="Flecha Negra">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
          
   </requires>
   <extension point="xbmc.addon.repository" name="[COLOR red]Arrow Negra [COLOR red]repositorio[/COLOR]">
-      <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/leia</datadir>
+      <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/leia/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/leia/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/leia/main</datadir>
    <dir minversion="18.9.1">
-      <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/matrix</datadir>
-    </dir>
+      <info compressed="false">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/arrownegra/arrownegra.github.io/main</datadir>
+  </dir>
 
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -24,7 +1144,200 @@
     <assets>
       <icon>icon.png></icon>
       <fanart>fanart.jpg</fanart>
-</assets>
+    </assets>
+  </extension>
+</addon>
+
+
+<addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.2">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
+      <checksum>https://k.slyguy.xyz/.repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://k.slyguy.xyz/.repo/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets> 
+  </extension>
+</addon>
+
+<addon id="script.blackarrow.kodilimpo" name="[COLORred]Blackarrow[/COLOR] [COLORcyan]kodi[/COLOR]limpo" provider-name="Flechanegra" version="1.9.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>executable</provides>
+  </extension>
+  <extension library="service.py" point="xbmc.service" start="startup">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Clean up temporary files in Kodi.</summary>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <description lang="en_GB">Clean up temporary files in Kodi.</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.32.7">
+  <requires>
+    <import addon="repository.slyguy"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.python.pluginsource" library="default.py" />
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Common code used by all Slyguy add-ons</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.speedtester" name="Speed Tester" version="1.1.2+matrix.1" provider-name="Dr0idGuy, dagwieers">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="resources/lib/addon_entry.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Test your Internet bandwidth</summary>
+    <description lang="en_GB">This add-on tests your Internet bandwith and reports both download and upload speeds and latency from within Kodi.
+
+Use this if you are experiencing streaming issues and you suspect your network to be the cause.</description>
+    <disclaimer lang="en_GB">Speed Tester is powered by speedtest.net</disclaimer>
+    <language>en</language>
+    <license>Apache-2.0</license>
+    <email>dag@wieers.com</email>
+    <website>https://kodi.wiki/view/Add-on:Speed_Tester</website>
+    <source>https://github.com/flechanegra/script.speedtester</source>
+    <news>
+    </news>
+    <assets>
+      <icon>resources/media/icon.png</icon>
+      <fanart>resources/media/fanart.jpg</fanart>
+      <screenshot>resources/media/screenshot01.jpg</screenshot>
+      <screenshot>resources/media/screenshot02.jpg</screenshot>
+      <screenshot>resources/media/screenshot03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.opensubtitles"
+       name="OpenSubtitles.org"
+       version="5.1.2"
+       provider-name="amet, opensubtitles, juokelis">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.subtitle.module"
+             library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">OpenSubtitles</summary>
+		<description lang="en_GB">Search and download subtitles for movies and TV-Series from OpenSubtitles.org. Search in 75 languages, 4.000.000+ subtitles, daily updates.</description>
+		<description lang="ast_ES">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
+		<description lang="br_FR">Istitloù Filmoù ha TV e meur a yezh, miliadoù a istitloù troet hag uskarget bemdez. Pellgargadenn digoust diouzh ar vammenn, skoazell an API, millionoù a implijerien.</description>
+		<description lang="ca_ES">Subtítols de films i televisió en múltiples idiomes, milers de subtítols traduïts carregats diàriament. Descàrrega gratuïta des de la font, suport de l'API, amb milions d'usuaris.</description>
+		<description lang="cs_CZ">Titulky k filmům a seriálům v mnoha jazycích, denně tisíce nahraných přeložených titulků. Stažení zadarmo přímo od zdroje, podpora API, milióny uživatelů.</description>
+		<description lang="de_DE">Film- und TV-Untertitel in vielen Sprachen, täglicher Upload von tausenden übersetzten Untertiteln. Freier Download von der Quelle, API-Unterstützung, Millionen Nutzer</description>
+		<description lang="el_GR">Ταινίες και Σειρές σε όλες τις γλώσσες, χιλιάδες μεταφρασμένοι υπότιτλοι ανεβαίνουν καθημερινά, κατεβάστε δωρεάν , υποστήριξη API από εκατομμύρια χρήστες</description>
+		<description lang="eo_EO">Filmaj kaj Televidaj subtekstoj en multaj lingvoj, miloj da tradukitaj subtekstoj ĉiutage alŝutataj. Senpaga elŝuto de fonto, API-subteno, miloj da uzantoj.</description>
+		<description lang="es_ES">Películas y Subtítulos en diversos idiomas, miles de subtítulos traducidos subidos diariamente. Descarge gratis, soporte API, millones de usuarios.</description>
+		<description lang="et_EE">Sadu Filmi ja TV Serjaalide subtiitrid erinevates keeltes laetakse üles igapäev. tasuta allalaadimine ja abi, rohkem kui miljon kasutajat.</description>
+		<description lang="eu_ES">Film eta Telebista azpitituluak hizkuntza anitzetan, milaka azpititulu itzuliak igotzen dira egunero. Doan jaitsi iturburutik, API sostengua, milioika erabiltzaile.</description>
+		<description lang="fi_FI">Tekstityksiä useilla kielillä elokuviin ja TV-Sarjoihin, tuhansia uusia tekstityksiä päivittäin, ilmainen lataus, API tuki, miljoonia käyttäjiä.</description>
+		<description lang="fr_FR">Les sous-titres de film et téléfilm en plusieurs langues, des milliers de sous-titres traduits tous les jours. Bénéficiez de téléchargements gratuits depuis la source, du support API, une d'une communauté de millions d'utilisateurs.</description>
+		<description lang="hi_IN">मूवी और टीवी उपशीर्षक कई भाषाओं में अनुवाद उपशीर्षक के हजारों दैनिक अपलोड की गई। मुफ्त डाउनलोड स्रोत से , एपीआई समर्थन, उपयोगकर्ताओं के लाखों लोगों की ।</description>
+		<description lang="hr_HR">Titlovi za filmove i TV na mnogim jezicima, tisuće prijevoda postavljenih svaki dan. Besplatno preuzimanje s izvora, podrška za API, milijuni korisnika.</description>
+		<description lang="hu_HU">Film és TV feliratok több nyelven, naponta több ezer lefordított felirat feltöltés. Ingyenes letöltés a forrástól, API támogatás, több millió felhasználó.</description>
+		<description lang="id_ID">Subjudul film dan serial TV dalam multibahasa, ribuan subjudul diterjemah dan diunggah setiap harinya. Pengunduhan gratis dari sumber, didukung fitur antarmuka pemrograman aplikasi, dan jutaan pengguna.</description>
+		<description lang="is_IS">Textar fyrir myndir og sjónvarpsþ. á mörgum tungumálum, þúsundir af þýddum textum upphlaðið daglega. Frítt niðurhal frá síðu, API stuðningur, milljónir notenda.</description>
+		<description lang="it_IT">Sottotitoli di Film e TV in più lingue,migliaia di sottotitoli tradotti caricati ogni giorno.Download gratuito,supporto API, milioni di utenti.</description>
+		<description lang="ja_JP">映画やテレビの字幕をさまざまな言語で。毎日数多くの翻訳字幕がアップロードされています。ソースを無料ダウンロード、API 対応、数百万を超えるユーザー。</description>
+		<description lang="ka_GR">სუბტიტრები ფილმებისა და ტვ-სთვის მრავალ ენაზე. ათასობიტ თარგმნილი სუბტიტრის ატვირთვა ყოველდღიურად. უდასო ჩამოტვირტვა წყაროდან, API მხარდაჭერა, მილიონობით მომხმარებელი</description>
+		<description lang="km_KH">អត្ថបទរឿងសម្រាប់ ខ្សែភាពយន្ត និងកម្មវិធីទូរទស្សន៍​ ជាភាសាជាច្រើន រួមនឹងអត្ថបទរឿងបកប្រែរាប់ពាន់​រឿង​ដែល​ត្រូវបាន​អ័ពឡូដជារៀងរាល់ថ្ងៃ។ ទាញយកដោយឥតគិតថ្លៃពីប្រភពដើម គាំទ្រ API និងមានអ្នកប្រើប្រាស់រាប់លាននាក់។ </description>
+		<description lang="ko_KR">Movie and TV Subtitles in multiple languages, thousands of translated subtitles uploaded daily. Free download from source, API support, millions of users.</description>
+		<description lang="ms_MY">Sarikata TV dan Movie dalam pelbagai bahasa, ribuan terjemahan sarikata dimuat-naik setiap hari.Muat-turun percuma dari sumber utama, sokongan API, jutaan pengguna.</description>
+		<description lang="nl_NL">Ondertitels voor films en tv-series in meerdere talen, dagelijks upload van duizenden vertaalde ondertitels. Gratis downloaden van de bron, API ondersteuning, miljoenen gebruikers.</description>
+		<description lang="no_NO">Undertekster for film og TV på mange språk, med tusener av nye oversettelser hver dag. Vi har gratis nedlasting av undertekster, API-support, og mange millioner brukere.</description>
+		<description lang="pl_PL">Napisy do filmów i seriali w wielu językach. Tysiące napisów dodawanych codziennie. Darmowe pobranie, miliony użytkowników.</description>
+		<description lang="pt_BR">Milhares de legendas para filmes e seriados de TV, em vários idiomas, são traduzidas e enviadas diariamente. Download grátis, suporte API e milhões de usuários.</description>
+		<description lang="pt_PT">Legendas de filmes e séries de TV em vários idiomas, milhares de legendas traduzidas e enviadas diariamente. Download grátis a partir da fonte, suporte API, milhões de utilizadores.</description>
+		<description lang="ro_RO">Subtitrari pentru filme in multe limbi, mii de subtitrari traduse si încărcate in fiecare zi. Descărca gratuit de la sursă, suport API, milioane de utilizatori.</description>
+		<description lang="ru_RU">Кино и ТВ субтитры на нескольких языках, тысячи переведенными субтитрами загружены ежедневно. Бесплатно скачать из исходных текстов, поддержка API, миллионы пользователей.</description>
+		<description lang="sk_SK">Titulky pre filmy a TV seriály, denne nahratých tisíce titulkov preložených vo viacerých jazykoch. Sťahuj zadarmo zo zdroja, podpora API, milióny používateľov.</description>
+		<description lang="sl_SI">Filmski in televizijski podnapisi v mnogo jezikih, na tisoče prevedenih podnapisov dnevno. Brezplačen prenos iz vira, podpora API, miljoni uporabnikov.</description>
+		<description lang="sq_AL">Titra filmash dhe serialesh në shumë gjuhë, mijëra titra të përkthyera që vendosen çdo ditë. Shkarko nga burimi, apo nga mbështetja e API-së, miliona përdorues.</description>
+		<description lang="sr_CS">Titlovi za filmove i TV na mnogim jezicima, hiljade prevoda okačenih svakodnevno. Besplatno skidanje sa izvora, podrška za API, milioni korisnika.</description>
+		<description lang="sv_SE">Filmer och Tv-undertexter med olika språk, tusentals översatta undertexter uppladdade dagligen. Gratis nerladdning från källor, API support, miljoner av användare.</description>
+		<description lang="tr_TR">Her gün eklenen, pek çok dildeki binlerce film ve dizi altyazısı. Kaynağından ücretsiz indirme, API desteği ve milyonlarca kullanıcı.</description>
+		<description lang="uz_UZ">Film va TV Taglavhalari ko'p tillarda, minglab tarjima qilingan taglavhalar har kuni tizimga yuklanadi. Bepul resursdan yuklab oling, API qo'llaydi, millionlab foydalanuvchilar.</description>
+		<description lang="zh_CN">多语种的电影及剧集字幕，每日更新千余条翻译好的字幕。免费下载，提供API接口，已拥有上百万的用户。</description>
+		<disclaimer lang="en_GB">Users need to provide OpenSubtitles.org username and password in add-on configuration</disclaimer>
+		<news>
+v5.1.2 (2020-03-21) by enen92
+- Fixes for python3/matrix. Remove sys.path.append.
+		</news>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
+		<website>http://www.opensubtitles.org</website>
+		<email>admin [at] opensubtitles {dot} org</email>
+		<assets>
+			<icon>resources/media/os_logo_512x512.png</icon>
+			<fanart>resources/media/os_fanart.jpg</fanart>
+			<screenshot>resources/media/screenshot_1.jpg</screenshot>
+			<screenshot>resources/media/screenshot_2.jpg</screenshot>
+			<screenshot>resources/media/screenshot_3.jpg</screenshot>
+		</assets>
+		<source>https://github.com/juokelis/service.subtitles.opensubtitles</source>
+	</extension>
+</addon>
+<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.6.7">
+  <requires>
+    <import addon="script.module.slyguy"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Disney+ is the exclusive home for your favorite movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.
+
+Subscription required.</description>
+    <description lang="it">Disney+ è la casa esclusiva per i tuoi film e programmi TV preferiti di Disney, Pixar, Marvel, Star Wars e National Geographic.
+
+Abbonamento richiesto.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Fix search</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
 </addons>
