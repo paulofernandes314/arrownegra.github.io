@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sources>
+<source>
+		<url>https://</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv bem vindo .[/COLOR] creditos iptv-org [/COLOR]</name>
+		<icon>https://i.imgur.com/9p4fPiK.jpg</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/index.country.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] country [/COLOR]</name>
+		<icon>https://i.imgur.com/dsEXvId.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/languages/eng.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] languages [/COLOR]</name>
+		<icon>https://i.imgur.com/vKKsxCe.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/index.category.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] category [/COLOR]</name>
+		<icon>https://i.imgur.com/J9MSfUq.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/categories/movies.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] Movies [/COLOR]</name>
+		<icon>https://i.imgur.com/q5jUeAR.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/categories/series.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] TV shows [/COLOR]</name>
+		<icon>https://i.imgur.com/uNGtM1d.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/categories/sports.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] Sports [/COLOR]</name>
+		<icon>https://i.imgur.com/v6N64li.png</icon>
+	</source>
+	<source>
+		<url>https://iptv-org.github.io/iptv/categories/music.m3u</url>
+		<fanart>https://i.imgur.com/bSqmVWB.jpg</fanart>
+		<name>[COLORgrey][COLOR lime]»»arrownegra play tv[/COLOR] music [/COLOR]</name>
+		<icon>https://i.imgur.com/vF89E4r.png</icon>
+	</source>
+</sources>
